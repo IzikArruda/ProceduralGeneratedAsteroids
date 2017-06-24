@@ -26,7 +26,7 @@ public class OctahedronCreator : MonoBehaviour {
          */
 
         /* Create the mesh of the octahedron */
-        GetComponent<MeshFilter>().mesh = CreateOctahedron(subDivisions, radius);
+        //GetComponent<MeshFilter>().mesh = CreateOctahedron(subDivisions, radius);
     }
 
 
@@ -265,4 +265,6 @@ public class OctahedronCreator : MonoBehaviour {
         uv[vertices.Length - 2].x = uv[2].x = 0.625f;
         uv[vertices.Length - 1].x = uv[3].x = 0.875f;
     }
+
+    
 }
